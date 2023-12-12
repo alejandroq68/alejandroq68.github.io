@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda MOTOMEX</title>
+    <link rel="stylesheet" href="proyecto.css">
+	<link rel="shortcut icon" href="Imagenes/casco.png"
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <!--PIXELIFY FONT-->
+
+</head>
+
+<body>
+    <div class="ContenidoPrin">
+        <nav class="header">
+            <a href="index.html">MOTOMEX</a>
+            <ul class="navMenu">
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="sobreNosotros.html">Sobre Nosotros</a>
+                </li>
+                <li>
+                    <a href="Tienda.html">Tienda</a>
+                </li>
+
+            </ul>
+            <ul class="navMenuDerecha">
+
+                <div class="enlaceSocial">
+                    <a href="#">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+
+            </ul>
+        </nav>
+
+
+        <hr>
+        <!--Muestra encabezado-->
+        <header class="muestraEncabezado">
+            <h2>MOTOMEX</h2>
+            <p>
+                "¡MOTOMEX, tu pasión en dos ruedas!"
+            </p>
+            <p>
+
+            </p>
+        </header>
+    </div>
+
+	<script>
+
+		function valor(){
+		}
+		var z250 ="";
+		var vtx300r="";
+		var rCarrera="";
+		var gixxer ="";
+		var duke="";
+		var huqs="";
+		var vector ="";
+		var vtx300 ="";
+		var vx250="";
+		var mt09="";
+		var yzfr15="";
+		var xr190="";
+		var total=0;
+		var producto ="\n\n";
+		var productoT ="";
+		function compras(){
+
+			var ChB1=document.getElementById("chk1");
+			if(ChB1.checked){
+				producto+="- Italika 250z $49,999\n\n";
+				productoT+="- Italika 250z $49,999 <p> DESCRIPCION: Motocicleta 250cc de 6 Velocidades\n\n </p><br>";
+				total=parseFloat(total)+49999;
+				z250="Motocicleta 250cc de 6 Velocidades";
+
+			}
+
+			var ChB2=document.getElementById("chk2");
+			if(ChB2.checked){
+				producto+="- Vortex-300R $79,999\n\n";
+				productoT+="- Vortex-300R $79,999 <p> DESCRIPCION: Motocicleta 300cc de 6 Velocidades\n\n </p><br>";
+				total=parseFloat(total)+79999;
+				vtx300r="Motocicleta 300cc de 6 Velocidades";
+
+			}
+			var ChB3=document.getElementById("chk3");
+			if(ChB3.checked){
+				producto+="- Rocketan Carrera 39,999\n\n";
+				productoT+="- Rocketan Carrera 39,999 <p> DESCRIPCION: Motocicleta 250cc de 5 Velocidades\n\n</p><br>";
+				total=parseFloat(total)+39999;
+				rCarrera="Motocicleta 250cc de 5 Velocidades";
+
+			}
+			var ChB4=document.getElementById("chk4");
+			if(ChB4.checked){
+				producto+="- Suzuki Gixxer 150 SF $61,490\n\n";
+				productoT+="- Suzuki Gixxer 150 SF $61,490 <p> DESCRIPCION: Motocicleta 150cc de 6 Velocidades\n\n</p><br>";
+				total=parseFloat(total)+61490;
+				gixxer="Motocicleta 150cc de 6 Velocidades";
+
+			}
+			var ChB5=document.getElementById("chk5");
+			if(ChB5.checked){
+				producto+="- KTM DUKE RC390  $131,900\n\n";
+				productoT+="- KTM DUKE RC390  $131,900 <p> DESCRIPCION: Motocicleta 390cc de 6 Velocidades \n\n</p><br>";
+				total=parseFloat(total)+49999;
+				duke="Motocicleta 390cc de 6 Velocidades";
+
+			}
+			var ChB6=document.getElementById("chk6");
+			if(ChB6.checked){
+				producto+="- Husqsvarna Svartpilen 250 $95,900\n\n";
+				productoT+="- Husqsvarna Svartpilen 250 $95,900 <p> DESCRIPCION: Motocicleta 250cc de 6 Velocidades\n\n</p><br>";
+				total=parseFloat(total)+95900;
+				huqs="Motocicleta 250cc de 6 Velocidades";
+
+			}
+			var ChB7=document.getElementById("chk7");
+			if(ChB7.checked){
+				producto+="- Carabela Vector 250 $57,500\n\n";
+				productoT+="- Carabela Vector 250 $57,500 <p> DESCRIPCION: Motocicleta 250cc de 5 Velocidades\n\n</p><br>";
+				total=parseFloat(total)+57500;
+				vector="Motocicleta 250cc de 5 Velocidades";
+
+			}
+			var ChB8=document.getElementById("chk8");
+			if(ChB8.checked){
+				producto+="- Vortex 300 $74,999\n\n";
+				productoT+="- Vortex 300 $74,999 <p> DESCRIPCION: Motocicleta 300cc de 6 Velocidades\n\n</p><br>";
+				total=parseFloat(total)+74999;
+				vtx300="Motocicleta 300cc de 6 Velocidades";
+
+			}
+			var ChB9=document.getElementById("chk9");
+			if(ChB9.checked){
+				producto+="- Italika Vx250 $78,999\n\n";
+				productoT+="- Vortex 300 $74,999 <p> DESCRIPCION: Motocicleta 250cc de 6 Velocidades\n\n</p><br>";
+				total=parseFloat(total)+78999;
+				vx250="Motocicleta 250cc de 6 Velocidades";
+
+			}
+			var ChB10=document.getElementById("chk10");
+			if(ChB10.checked){
+				
+				producto+="- Yamaha MT09 $299,999\n\n";
+				productoT+="- Yamaha MT09 $299,999 <p> DESCRIPCION: Motocicleta 890cc de 7 Velocidades\n\n</p><br>";
+				total=parseFloat(total)+299999;
+				mt09="Motocicleta 890cc de 7 Velocidades";
+
+			}
+			var ChB11=document.getElementById("chk11");
+			if(ChB11.checked){
+				
+				producto+="- Yamaha YZF-R15 $89,999\n\n";
+				productoT+="- Yamaha YZF-R15 $89,999 <p> DESCRIPCION: Motocicleta 155cc de 6 Velocidades\n\n</p><br>";
+				total=parseFloat(total)+89999;
+				yzfr15="Motocicleta 155cc de 6 Velocidades";
+
+			}
+			var ChB12=document.getElementById("chk12");
+			if(ChB12.checked){
+				producto+="- Honda XR 190L $59,490\n\n";
+				productoT+="- Honda XR 190L $59,490 <p> DESCRIPCION: Motocicleta 190cc de 5 Velocidades\n\n</p><br>";
+				total=parseFloat(total)+59490;
+				xr190="Motocicleta 190cc de 5 Velocidades";
+
+			}
+
+			document.getElementById("producto").value=producto+"\nTotal: $ "+ total;
+			document.getElementById("productoT").value=productoT+"\n<br>";
+
+			document.getElementById("total").value= "$ "+total;
+
+			producto="";
+			productoT="";
+			
+			total="0";
+			
+			document.getElementById("z250").value=z250;
+			document.getElementById("vtx300r").value=vtx300r;
+			document.getElementById("rCarrera").value=rCarrera;
+			document.getElementById("gixxer").value=gixxer;
+			document.getElementById("duke").value=duke;
+			document.getElementById("huqs").value=huqs;
+			document.getElementById("vector").value=vector;
+			document.getElementById("vtx300").value=vtx300;
+			document.getElementById("vx250").value=vx250;
+			document.getElementById("mt09").value=mt09;
+			document.getElementById("yzfr15").value=yzfr15;
+			document.getElementById("xr190").value=xr190;
+			
+		}				
+
+	</script>
+
+	<table class="tabla_motos" align="center" border="4" bordercolor="black" cellpadding="" cellspacing="">
+
+		<tr>
+	
+		<td align="center"><font face="monospace" color="red" ><h3>Italika 250z</h3></font> 
+			<br>
+			<img loading="lazy" src="Imagenes/250z.jpg" width="150" height="150" >
+			<br>
+			<font face="monospace"><h3>Descripcion: Motocicleta 250cc de 6 velocidades</h3></font> 
+			<br>
+			<font face="monospace"><h3>Estilo:Naked</h3></font> 
+			<br>
+			<font face="monospace"><h3>Precio: $ 49,999</h3></font> 
+			<br>
+			<input type="checkbox" name="CB1"  style="cursor: pointer; "id="chk1"><label for="chk">Comprar</label>
+
+		</td>
+
+		<td align="center"><font face="monospace" color="red"><h3>Vortex 300R</h3></font> 
+			<br>
+			<img loading="lazy" src="Imagenes/vortex300.jpg" width="150" height="150" >
+			<br>
+			<font face="monospace"><h3>Descripcion: Motocicleta 300cc de 6 velocidades</h3></font> 
+			<br>
+			<font face="monospace"><h3>Estilo:Deportiva</h3></font> 
+			<br>
+			<font face="monospace"><h3>Precio: $ 79,999</h3></font> 
+			<br>
+			<input type="checkbox" name="CB2"  style="cursor: pointer;"id="chk2"><label for="chk">Comprar</label>
+
+		</td>
+	
+		<td align="center"><font face="monospace" color="red"><h3>Rocketman Carrera</h3></font> 
+			<br>
+			<img loading="lazy" src="Imagenes/rocketman.jpg" width="150" height="150" >
+			<br>
+			<font face="monospace"><h3>Descripcion: Motocicleta 250cc de 5 velocidades</h3></font> 
+			<br>
+			<font face="monospace"><h3>Estilo:Cafe-Racer</h3></font> 
+			<br>
+			<font face="monospace"><h3>Precio: $ 39,999</h3></font> 
+			<br>
+			<input type="checkbox" name="CB3"  style="cursor: pointer;"id="chk3"><label for="chk">Comprar</label>
+		</td>
+	
+		</tr>
+
+		<tr >
+			<td align="center"><font face="monospace" color="red"><h3>Suzuki Gixxer 150 SF</h3></font> 
+				<br>
+				<img loading="lazy" src="Imagenes/Gixxer.jpg" width="150" height="150" >
+				<br>
+				<font face="monospace"><h3>Descripcion: Motocicleta 150cc de 6 velocidades</h3></font> 
+				<br>
+				<font face="monospace"><h3>Estilo:Deportiva</h3></font> 
+				<br>
+				<font face="monospace"><h3>Precio: $ 61,490</h3></font> 
+				<br>
+				<input type="checkbox" name="CB4"  style="cursor: pointer;"id="chk4"><label for="chk">Comprar</label>
+		</td>
+	
+		<td align="center"><font face="monospace" color="red"><h3>KTM Duke RC390</h3></font> 
+			<br>
+			<img loading="lazy" src="Imagenes/duke390.jpg" width="150" height="150" >
+			<br>
+			<font face="monospace"><h3>Descripcion: Motocicleta 390cc de 6 velocidades</h3></font> 
+			<br>
+			<font face="monospace"><h3>Estilo:Deportiva</h3></font> 
+			<br>
+			<font face="monospace"><h3>Precio: $ 131,900</h3></font> 
+			<br>
+			<input type="checkbox" name="CB5"  style="cursor: pointer;"id="chk5"><label for="chk">Comprar</label>
+		</td>
+	
+		<td align="center"><font face="monospace" color="red"><h3>huqsvarna svartpilen 250</h3></font> 
+			<br>
+			<img loading="lazy" src="Imagenes/huqs.jpg" width="150" height="150" >
+			<br>
+			<font face="monospace"><h3>Descripcion: Motocicleta 250cc de 6 velocidades</h3></font> 
+			<br>
+			<font face="monospace"><h3>Estilo:Naked</h3></font> 
+			<br>
+			<font face="monospace"><h3>Precio: $ 95,900</h3></font> 
+			<br>
+			<input type="checkbox" name="CB6"  style="cursor: pointer;"id="chk6"><label for="chk">Comprar</label>
+		</td>
+	
+		</tr>
+
+
+		<tr >
+			<td align="center"><font face="monospace" color="red"><h3>Carabela Vector 250</h3></font> 
+				<br>
+				<img loading="lazy" src="Imagenes/vector.jpg" width="150" height="150" >
+				<br>
+				<font face="monospace"><h3>Descripcion: Motocicleta 250cc de 5 velocidades</h3></font> 
+				<br>
+				<font face="monospace"><h3>Estilo:Naked</h3></font> 
+				<br>
+				<font face="monospace"><h3>Precio: $ 57,500</h3></font> 
+				<br>
+				<input type="checkbox" name="CB7"  style="cursor: pointer;"id="chk7"><label for="chk">Comprar</label>
+		</td>
+	
+		<td align="center"><font face="monospace" color="red"><h3>Vortex 300</h3></font> 
+			<br>
+			<img loading="lazy" src="Imagenes/vort300.jpg" width="150" height="150" >
+			<br>
+			<font face="monospace"><h3>Descripcion: Motocicleta 300cc de 6 velocidades</h3></font> 
+			<br>
+			<font face="monospace"><h3>Estilo:Deportiva</h3></font> 
+			<br>
+			<font face="monospace"><h3>Precio: $ 74,999</h3></font> 
+			<br>
+			<input type="checkbox" name="CB8"  style="cursor: pointer;"id="chk8"><label for="chk">Comprar</label>
+		</td>
+	
+		<td align="center"><font face="monospace" color="red"><h3>Italika Vx250</h3></font> 
+			<br>
+			<img loading="lazy" src="Imagenes/v250.jpg" width="150" height="150" >
+			<br>
+			<font face="monospace"><h3>Descripcion: Motocicleta 250cc de 6 velocidades</h3></font> 
+			<br>
+			<font face="monospace"><h3>Estilo:Adventure</h3></font> 
+			<br>
+			<font face="monospace"><h3>Precio: $ 78,999</h3></font> 
+			<br>
+			<input type="checkbox" name="CB9"  style="cursor: pointer;"id="chk9"><label for="chk">Comprar</label>
+		</td>
+	
+		</tr>
+
+		
+		<tr >
+			<td align="center"><font face="monospace" color="red"><h3>Yamaha MT09</h3></font> 
+				<br>
+				<img loading="lazy" src="Imagenes/mt09.jpg" width="150" height="150" >
+				<br>
+				<font face="monospace"><h3>Descripcion: Motocicleta 890 de  velocidades</h3></font> 
+				<br>
+				<font face="monospace"><h3>Estilo:Naked</h3></font> 
+				<br>
+				<font face="monospace"><h3>Precio: $ 299,999</h3></font> 
+				<br>
+				<input type="checkbox" name="CB10" style="cursor: pointer;" id="chk10"><label for="chk">Comprar</label>
+		</td>
+	
+		<td align="center"><font face="monospace" color="red"><h3>Yamaha YZF-R15</h3></font> 
+			<br>
+			<img loading="lazy" src="Imagenes/r15.jpg" width="150" height="150" >
+			<br>
+			<font face="monospace"><h3>Descripcion: Motocicleta 155cc de 6 velocidades</h3></font> 
+			<br>
+			<font face="monospace"><h3>Estilo:Deportiva</h3></font> 
+			<br>
+			<font face="monospace"><h3>Precio: $ 89,999</h3></font> 
+			<br>
+			<input type="checkbox" name="CB11" style="cursor: pointer;" id="chk11"><label for="chk">Comprar</label>
+		</td>
+	
+		<td align="center"><font face="monospace" color="red"><h3>Honda XR 190L</h3></font> 
+			<br>
+			<img loading="lazy" src="Imagenes/honda.jpg" width="150" height="150" >
+			<br>
+			<font face="monospace"><h3>Descripcion: Motocicleta 190cc de 5 velocidades</h3></font> 
+			<br>
+			<font face="monospace"><h3>Estilo:Cross</h3></font> 
+			<br>
+			<font face="monospace"><h3>Precio: $ 59,490</h3></font> 
+			<br>
+			<input type="checkbox" name="CB12" style="cursor: pointer;" id="chk12" ><label for="chk">Comprar</label>
+		</td>
+	
+		</tr>
+		
+	</table>
+
+	<br><br>
+	
+	<table class="ticket" align="center"  cellpadding="" cellspacing="">
+		<tr>
+			<td>
+
+			</td>
+
+			<td align="center">
+				<input name="Calcular" type="button" onclick="compras()" value="                                					   "  
+																										style="background-color:steelblue; 
+																										background-image:url(Imagenes/boton.png) ;
+																										border-image-repeat: round;
+																										cursor: pointer;  
+																										padding: 14px 28px;  
+																										font-size: 16px;
+																										border:2cm;
+																										border-radius: 35px;
+																										background-size: auto;
+																										border-image:url(Imagenes/boton-reservar.png) ;" /> <br><br>
+				Productos Seleccionados<br><textarea style="background-color:cadetblue; text-align: center; " rows="20" cols="80" name="producto" wrap id="producto"  ></textarea>
+				<br><textarea rows="20" cols="80" name="productoT" wrap id="productoT" style="display: none;" ></textarea>
+				<input name="total" type="text" id="total" style="display: none;"></input>
+				<br><br><input type="submit" value="Enviar Pedido" style="cursor: pointer;
+																		border-radius: 35px;
+																		padding: 14px 28px;  
+																		font-size: 16px;
+																		border: 2cm;" >&nbsp;&nbsp;
+				<input type ="reset" style="cursor: pointer;
+											border-radius: 35px;
+											padding: 14px 28px;  
+											font-size: 16px;
+											border: 2cm;">
+				<br><br>
+			</td>
+
+			<td>
+
+			</td>
+		</tr>
+		<tr>
+			<td>
+
+			</td>
+
+			<td align="center">
+				<font face="monospace"><H1>P R O X I M A M E N T E ...</H1></font>
+				<video src="Imagenes/videoDucati.mp4" width="420" align="center" height="240" autoplay muted loop></video>
+
+			</td>
+			<td>
+
+			</td>
+		</tr>
+		
+		<tr>
+			<td>
+
+			</td>
+			<td align="center">
+				<br><br>
+				<font face="monospace"><H1>VISITANOS EN NUESTRA SUCURSAL !!!</H1></font>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14882.951912197559!2d-101.70889996424177!3d21.162823347668304!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbf471573b9c9%3A0x131d3a2e05f53779!2sPlaza%20Mayor!5e0!3m2!1ses-419!2smx!4v1680641690152!5m2!1ses-419!2smx" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</td>
+			<td>
+
+			</td>
+		</tr>
+	</table>
+	<br><br>
+    <!-- Footer de la Pagina -->
+    <div class="enlace-pie-pagina">
+        <div class="contenido-pie-pagina">
+            <ul>
+                <li>
+                    <p>
+                        <strong>
+                            <h2>
+                                MOTOMEX
+                            </h2>
+                        </strong>
+                        
+                    </p>
+                </li>
+                <li>
+                    <p>"MOTOMEX es tu destino para encontrar la moto perfecta. Nuestra pasión es ofrecer una amplia
+                        selección de motocicletas de calidad y un servicio excepcional. Te ayudamos a vivir la emoción
+                        de la carretera. Únete a la experiencia MOTOMEX y descubre la libertad en dos ruedas."</p>
+                </li>
+
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>
+                        <strong>
+                            <h2>Ponte en contacto con nosotros</h2>
+                        </strong>
+                    </p>
+                </li>
+                <li>
+                    <a href="index.html">Contacto</a>
+                </li>
+                <li>
+                    <a href="tel:4776970062">(477)-697-0062</a>
+                </li>
+                <li>
+                    <a href="mailto:64340leo@universidaddeleon.edu.mx">support@motomex.com</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>
+                        <a href="sobreNosotros.html">
+                            <strong>
+                                <h2>
+                                    Quienes Somos
+                                </h2>
+                            </strong>
+                        </a>
+                    </p>
+                </li>
+                <li>
+                    <a href="sobreNosotros.html">Acerca de</a>
+                </li>
+                <li>
+                    <a href="sobreNosotros.html">Condiciones de Servicio</a>
+                </li>
+                <li>
+                    <a href="sobreNosotros.html">Politica de Privacidad</a>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <p>
+                        <strong>
+                            <h2>
+                                Siguenos
+                            </h2>
+                        </strong>
+                        
+                    </p>
+                </li>
+                <li>
+                    <i class="fab fa-facebook-f" style="font-size: 30px;">
+                        <a href="https://www.facebook.com/abdiel.quiroga.98?mibextid=ZbWKwL" target="_blank">  Facebook</a>
+                    </i>
+                </li>
+                <br><br>
+                <li>
+                    <i class="fab fa-twitter" style="font-size: 30px;">
+                        <a href="https://x.com/Alejandro_q68?t=8OIGsC_o6hCXTO9ORm7uHw&s=09" target="_blank">Twitter</a>
+                    </i>
+                </li>
+                <br><br>
+                <li>
+                    <i class="fab fa-instagram" style="font-size: 30px;">
+                        <a href="https://instagram.com/abdie_quiroga?igshid=OGQ5ZDc2ODk2ZA==" target="_blank">Instragram</a>
+                    </i>
+                    
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <!-- Pie de Pagina -->
+    <footer class="piePagina">
+
+        <p>&copy; 2023 Motomex. Todos los derechos reservados.</p>
+
+    </footer>
+</body>
+
+</html>
